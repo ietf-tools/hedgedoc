@@ -83,7 +83,7 @@ function checkAuthorization (data, done) {
         return done('Permission denied', null)
       }
       console.info(roles)
-      if (!roles.some(r => acceptedRoles.includes(`${r[0]},$r[1]`))) {
+      if (!roles.some(r => acceptedRoles.includes(`${r[0]},${r[1]}`))) {
         const username = extractProfileAttribute(data, config.oauth2.userProfileUsernameAttr)
         logger.debug(`oauth2: user "${username}" doesn't have the required role. Permission denied`)
         return done('Permission denied', null)
