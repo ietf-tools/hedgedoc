@@ -80,8 +80,7 @@ function checkAuthorization (data, done) {
         logger.error('oauth2: "accessRole" is configured, but user profile doesn\'t contain roles attribute. Permission denied')
         return done('Permission denied', null)
       }
-      logger.info("roles:")
-      logger.info(roles)
+      logger.info(JSON.stringify(data))
       if (!roles.includes(config.oauth2.accessRole)) {
         const username = extractProfileAttribute(data, config.oauth2.userProfileUsernameAttr)
         logger.debug(`oauth2: user "${username}" doesn't have the required role. Permission denied`)
