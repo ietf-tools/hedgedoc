@@ -13,7 +13,7 @@ ghcr.io/ietf-tools/hedgedoc:latest
 
 - `CMD_DB_URL`: PostgreSQL Connection String
 - `PGSSLMODE`: *(optional)* SSL Connection Mode (e.g. `require`). See [accepted values](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNECT-SSLMODE)
-- `NODE_EXTRA_CA_CERTS`: *(optional)* Path to additional CA certificates for the DB connection. (e.g. ``/ca/some-cert.crt`)
+- `NODE_EXTRA_CA_CERTS`: *(optional)* Path to additional CA certificates for the DB connection. (e.g. `/ca/some-cert.crt`)
 
 #### General Configuration
 
