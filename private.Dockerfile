@@ -1,4 +1,4 @@
-FROM quay.io/hedgedoc/hedgedoc:1.10.3
+FROM quay.io/hedgedoc/hedgedoc:1.10.5
 
 ARG UID=10000
 COPY --chown=$UID /oauth-index.js /hedgedoc/lib/web/auth/oauth2/index.js
