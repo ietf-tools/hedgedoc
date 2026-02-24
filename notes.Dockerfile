@@ -1,4 +1,4 @@
-FROM quay.io/hedgedoc/hedgedoc:1.10.6
+FROM quay.io/hedgedoc/hedgedoc:1.10.7
 
 ARG UID=10000
 COPY --chown=$UID /s3-upload.js /hedgedoc/lib/web/imageRouter/s3.js
