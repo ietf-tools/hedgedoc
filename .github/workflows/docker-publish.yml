@@ -1,4 +1,5 @@
 name: Build Docker Image
+run-name: Build Docker Image based on ${{ inputs.baseVersion }}
 
 on:
   workflow_dispatch:
