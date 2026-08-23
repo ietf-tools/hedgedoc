@@ -18,3 +18,4 @@ ENV CMD_OAUTH2_USER_PROFILE_URL=https://auth.ietf.org/api/openid/userinfo
 ENV CMD_OAUTH2_USER_PROFILE_USERNAME_ATTR=name
 ENV CMD_OAUTH2_ROLES_CLAIM=roles
 ENV CMD_RATE_LIMIT_USING_CLOUDFLARE=true
+ENV CMD_EXTERNAL_LINK_WHITELIST="ietf.org, *.ietf.org, iab.org, *.iab.org, irtf.org, *.irtf.org, rfc-editor.org, *.rfc-editor.org"

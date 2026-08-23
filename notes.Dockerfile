@@ -23,3 +23,4 @@ ENV CMD_OAUTH2_USER_PROFILE_USERNAME_ATTR=name
 ENV CMD_PROTOCOL_USESSL=true
 ENV CMD_URL_ADDPORT=false
 ENV CMD_RATE_LIMIT_USING_CLOUDFLARE=true
+ENV CMD_EXTERNAL_LINK_WHITELIST="ietf.org, *.ietf.org, iab.org, *.iab.org, irtf.org, *.irtf.org, rfc-editor.org, *.rfc-editor.org"
